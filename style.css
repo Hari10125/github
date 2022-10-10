@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&family=Poppins&family=Raleway:wght@500&display=swap');
+* {
+  font-family: 'Gemunu Libre', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  z-index: 9999%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  font-size: 2em;
+  
+}
+
+.logo {
+  padding-left: -20px;
+  padding-right: 0px;
+  text-decoration: none;
+  color: #3a6cf4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 500;
+  padding-left: 5px;
+  margin: 2px;
+}
+
+.navigation a:hover {
+  color: blue;
+}
+
+section {
+  padding: 100px 200px;
+}
+
+.main {
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: 50px 50px 50px;
+  background-image: url(01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-right: 5px;
+  padding-left: 20px;
+  padding-top: 800px;
+  
+}
+.projects h2{
+  font-family: 'Gemunu Libre', sans-serif;
+
+  font-size: 150px;
+  
+}
+.main h2 {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  
+  font-weight: 600;
+  
+  color: #fff;
+  font-size: 2.5em;
+}
+.cards{
+  border-radius: 20px;
+  background-color: black;
+ 
+}
+.cards h2{
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 100px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 20px;
+  
+}
+.main h2 span {
+  
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  
+  display: inline-block;
+  
+  margin-top: 10px;
+  font-size: 2em;
+  color: blue;
+  font-weight: 600;
+
+}
+.main h4{
+  font-size: 50px;
+  font-family: 'Gemunu Libre', sans-serif;
+  padding-right: 150px;
+  padding-left: 50px;
+  
+
+}
+.main h3 {
+  font-family: 'Gemunu Libre', sans-serif;  
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #3a6cf4;
+  color: #fff;
+  font-size: 1.6em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover {
+  background-color: #0a49f6;
+  transform: scale(1.1)
+}
+
+.social-icon a {
+  color: #fff;
+  font-size: 3em;
+  padding-right: 60px;
+  padding-left: 40px;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 4em;
+  font-weight: 800px;
+  margin-bottom: 30px;
+}
+
+.content {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: blue;
+  width: 30.25em;
+  min-height: 35em;
+  box-shadow: 0 15px 25px rgba(1 1 1 /15%);
+  border-radius: 10px;
+  padding: 0 25px;
+  margin: 30px;
+  transition: 0.7s ease;
+  color: black;
+}
+
+.card:hover {
+  transform: scale(1.1)
+}
+
+.icon {
+  color: white;
+  font-size: 15em;
+  text-align: center;
+}
+
+.info {
+  font-family: 'Gemunu Libre', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.info h3 {
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 3em;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.projects {
+  background-color: white;
+  border-radius: 50px;
+}
+
+.projects .content {
+  margin-top: 30px;
+}
+
+.project-card {
+  background: black;
+  border: 20px solid black;
+  min-height: 14em;
+  width: 32em;
+  overflow: hidden;
+  border-radius: 50px;
+  margin: 20px;
+  transition: 0.7s ease;
+
+}
+project-info{
+  font-family: 'Gemunu Libre', sans-serif;
+  color: white;
+  padding-right: 100px;
+}
+.project-card:hover .ptoject-image {
+  opacity: 0.9;
+  size: 40px;
+
+}
+
+.project-card:hover {
+  transform: scale(1.1)
+}
+
+
+.ptoject-image img {
+  width: 100%;
+
+}
+
+
+h4 {
+  font-size: 2.2em;
+  color: #fff;
+  padding: 40px;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #000016;
+  color: #fff;
+  padding: 1px;
+  padding-bottom: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  width: 450px;
+  margin: 100px auto;
+  padding-left: 10px;
+  color: skyblue;
+  
+
+}
+.footer-title{
+  font-family: 'Gemunu Libre', sans-serif;
+  
+  
+}
+.social-icon a {
+  
+  color: white;
+  font-size: 3em;
+  padding-right: -60px;
+}
+.project-info{
+  
+  font-size: 30;
+  color: white;
+  align-items: center;
+  text-transform: uppercase;
+  
+}
+body {
+  
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, rgb(0, 0, 0, 20.2), skyblue);
+  height: 90vh;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+}
+.container {
+  border-radius: 30px;
+  padding-left: 0px;
+  padding-right:350px;
+  width: 700px;
+  height: 850px;
+  max-width: 700px;
+  margin: 100px auto;
+  
+}
+.container h1{
+  text-transform: uppercase;
+  font-size: 100px;
+  align-items: left;
+  padding-left: 55px;
+}
+
+.form-body {
+  border-radius: 20px;
+  align-items: center;
+  width: 200%;
+  height: 600px;
+  margin: auto;
+  box-shadow: 1px 10px 200px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  transition: all 2s;
+  height: 600px;
+}
+
+.project-category{
+  font-family: 'Gemunu Libre', sans-serif;
+  
+  padding-left:50px;
+  
+}
+.form-body:hover {
+  transform: scale(1.1);
+}
+.form-body p{
+  border-radius: 50px;
+  font-size: 50px;
+}
+
+.form-login input {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  
+  display: block;
+  margin: auto;
+  width: 90%;
+  height:100px;
+  margin-bottom: 5px;
+  padding-left: 0px;
+  border-radius: 5px;
+  outline-color: black;
+  border: 10px;
+  background: transparent;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2)
+}
+
+.text {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: blue;
+}
+
+.btn {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  height: 90px;
+  background: transparent;
+  border: none;
+  border-radius: 59px;
+  color: blue;
+  ;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
